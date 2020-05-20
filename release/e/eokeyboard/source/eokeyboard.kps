@@ -84,7 +84,9 @@
       <Name>Esperanto</Name>
       <ID>eokeyboard</ID>
       <Version>1.0</Version>
-      <Languages/>
+      <Languages>
+        <Language ID="eo">Esperanto</Language>
+      </Languages>
     </Keyboard>
   </Keyboards>
   <Strings/>

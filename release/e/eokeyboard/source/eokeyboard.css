@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Century Gothic, Verdana, sans-serif;
     background-color: #CDE6FF;
 }
 
@@ -28,6 +28,11 @@ h2 {
     float: left;
 }
 
+.rules {
+    display: flex;
+    column-gap: 20px;
+}
+
 .header {
     background-color: #003B72;
     height: 60px;
@@ -41,12 +46,11 @@ h2 {
     font-size: 1.4em;
 }
 
-table.rules {
+.box {
     padding: 15px 20px 15px 19px;
     background-color: #FDFDDF;
     border-radius: 5px;
     border: 2px solid #003B72;
-    margin-top: 20px;
 }
 
 td {
