@@ -67,14 +67,6 @@
       <ParentFileID>id_5f36eda10a18b7645c0bfb030e871093</ParentFileID>
     </File>
     <File>
-      <ID>id_1a505d28f7d9364d3f887a372e059456</ID>
-      <Filename>eokeyboard.kvk</Filename>
-      <Filepath>source\..\build\eokeyboard.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_da018d276f2feb3ae2ad00df09d0b3d0</ParentFileID>
-    </File>
-    <File>
       <ID>id_8c7e49686ddce0d0d45aa771868d0b84</ID>
       <Filename>eokeyboard.kmx</Filename>
       <Filepath>source\..\build\eokeyboard.kmx</Filepath>

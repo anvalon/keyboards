@@ -25,12 +25,6 @@
   </Info>
   <Files>
     <File>
-      <Name>..\build\eokeyboard.kvk</Name>
-      <Description>File eokeyboard.kvk</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kvk</FileType>
-    </File>
-    <File>
       <Name>..\build\eokeyboard.kmx</Name>
       <Description>Keyboard Esperanto</Description>
       <CopyLocation>0</CopyLocation>
