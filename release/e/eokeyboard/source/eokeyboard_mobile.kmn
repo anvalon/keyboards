@@ -1,0 +1,47 @@
+﻿c Simplified Esperanto Keyboard for Keyman 10.0
+c 
+c This keyboard program uses a simplified set of keys
+c for typing Esperanto special characters
+c 
+c @author: Andrea Vaccari
+
+store(&VERSION) '10.0'
+store(&NAME) 'Esperanto'
+store(&COPYRIGHT) '© 2020 Andrea Vaccari'
+store(&KEYBOARDVERSION) '1.0'
+store(&LAYOUTFILE) 'eokeyboard.keyman-touch-layout'
+store(&BITMAP) 'eokeyboard.ico'
+store(&KMW_EMBEDCSS) 'eokeyboard.css'
+store(&TARGETS) 'mobile'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(i_xchars) "cghjsuCGHJSU"
+store(o_xchars) "ĉĝĥĵŝûĈĜĤĴŜÛ"
+store(x_stroke) "xX"
+
+store(w_stroke) "wW"
+store(w_output) "ûÛ"
+
+c ---------------------------------------------------------------------------------
+c The "xXwW" chars are used to get special outputs by some of the following rules. 
+c So, in order to output one of the "xXwW" chars, we have to press the "'" char before,
+c and in order to output the "'" char, we have to press it twice.
+c ---------------------------------------------------------------------------------
++ "'" > deadkey(quote)
+deadkey(quote) + any(x_stroke) > index(x_stroke,2)
+deadkey(quote) + any(w_stroke) > index(w_stroke,2)
+deadkey(quote) + "'" > "'"
+
+c ---------------------------------------------------------------------------------
+c By pressing "x" or "X" after one of the chars of the string "cghjsuCGHJSU",
+c this one is replaced by the corresponding char of the string "ĉĝĥĵŝûĈĜĤĴŜÛ"
+c ---------------------------------------------------------------------------------
+any(i_xchars) + any(x_stroke) > index(o_xchars, 1)
+
+c ---------------------------------------------------------------------------------
+c Replaces "w" by "û" and "W" by "Û"
+c ---------------------------------------------------------------------------------
++ any(w_stroke) > index(w_output, 1)

@@ -320,13 +320,6 @@
             "id": 4,
             "key": [
               {
-                "id": "T_SPECIAL",
-                "text": "   esp   ",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "special"
-              },
-              {
                 "id": "K_NUMLOCK",
                 "text": "*123*",
                 "width": "140",
@@ -699,13 +692,6 @@
             "id": 4,
             "key": [
               {
-                "id": "T_new_5610",
-                "text": "   esp   ",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "special"
-              },
-              {
                 "id": "K_NUMLOCK",
                 "text": "*123*",
                 "width": "140",
@@ -912,13 +898,6 @@
             "id": 4,
             "key": [
               {
-                "id": "T_new_6215",
-                "text": "   esp   ",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "special"
-              },
-              {
                 "id": "K_LOWER",
                 "text": "*abc*",
                 "width": "140",
@@ -1107,13 +1086,6 @@
             "id": 4,
             "key": [
               {
-                "id": "T_new_13117",
-                "text": "   esp   ",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "special"
-              },
-              {
                 "id": "K_LOWER",
                 "text": "*abc*",
                 "width": "140",
@@ -1129,138 +1101,6 @@
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "630",
-                "sp": "0"
-              },
-              {
-                "id": "K_ENTER",
-                "text": "*Enter*",
-                "width": "140",
-                "sp": "1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "special",
-        "row": [
-          {
-            "id": 1,
-            "key": [
-              {
-                "id": "T_new_2504",
-                "text": "",
-                "width": "10",
-                "sp": "10"
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "key": [
-              {
-                "id": "U_0108",
-                "text": "Ĉ",
-                "pad": "70"
-              },
-              {
-                "id": "U_011C",
-                "text": "Ĝ"
-              },
-              {
-                "id": "U_0124",
-                "text": "Ĥ"
-              },
-              {
-                "id": "U_0134",
-                "text": "Ĵ"
-              },
-              {
-                "id": "U_015C",
-                "text": "Ŝ"
-              },
-              {
-                "id": "U_016C",
-                "text": "Ŭ"
-              },
-              {
-                "id": "T_new_2433",
-                "text": "",
-                "width": "10",
-                "sp": "10"
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "key": [
-              {
-                "id": "U_0109",
-                "text": "ĉ",
-                "pad": "120"
-              },
-              {
-                "id": "U_011D",
-                "text": "ĝ"
-              },
-              {
-                "id": "U_0125",
-                "text": "ĥ"
-              },
-              {
-                "id": "U_0135",
-                "text": "ĵ"
-              },
-              {
-                "id": "U_015D",
-                "text": "ŝ"
-              },
-              {
-                "id": "U_016D",
-                "text": "ŭ"
-              },
-              {
-                "id": "K_BKSP",
-                "text": "*BkSp*",
-                "width": "140",
-                "sp": "1"
-              },
-              {
-                "id": "T_new_6665",
-                "text": "",
-                "width": "10",
-                "sp": "10"
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "key": [
-              {
-                "id": "T_DEFAULT",
-                "text": "*abc*",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "default"
-              },
-              {
-                "id": "K_NUMLOCK",
-                "text": "*123*",
-                "width": "140",
-                "sp": "1",
-                "nextlayer": "numeric"
-              },
-              {
-                "id": "K_LOPT",
-                "text": "*Menu*",
-                "width": "120",
-                "sp": "1"
-              },
-              {
-                "id": "K_SPACE",
-                "text": "",
-                "pad": "",
                 "width": "630",
                 "sp": "0"
               },
